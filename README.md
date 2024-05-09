@@ -15,6 +15,7 @@
 ![image](https://github.com/amyouran/v2board-telegram-bot/assets/150254537/5985726c-7ba8-4d61-9617-9ae22991c5db)
 
 [测试Bot](https://t.me/zeroThemeGroup)
+![image](https://github.com/amyouran/v2board-telegram-bot/assets/150254537/1202609f-6c1d-460b-89d1-221eda35ac9c)
 
 ## 配置 Config.yaml
 | Field                 | Desc                                                       | 

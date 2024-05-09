@@ -67,7 +67,7 @@ func (b *V2boardBot) CmdBlind() (string, string, string, BotCommandHandler) {
 				return errors.NewWithErr(configs.ErrDbSet, err)
 			}
 
-			return c.Send("绑定成功了!")
+			return c.Reply("绑定成功了!")
 		})
 	}
 }

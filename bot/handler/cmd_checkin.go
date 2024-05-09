@@ -102,7 +102,7 @@ func (b *V2boardBot) CmdCheckin() (string, string, string, BotCommandHandler) {
 
 			replyText := fmt.Sprintf("签到成功, 获得%s流量, 剩余可用流量%s.", utils.TrafficConvert(newCheckinObj.Award), utils.TrafficConvert(remain))
 
-			return c.Send(replyText)
+			return c.Reply(replyText)
 		})
 	}
 }

@@ -41,7 +41,7 @@ func (b *V2boardBot) CmdUnBlind() (string, string, string, BotCommandHandler) {
 				return errors.NewWithErr(configs.ErrDbSet, err)
 			}
 
-			return c.Send("解绑成功了!")
+			return c.Reply("解绑成功了!")
 		})
 	}
 }

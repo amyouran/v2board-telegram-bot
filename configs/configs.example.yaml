@@ -1,0 +1,28 @@
+Bot:
+  Token: 
+  PublicURL: 
+  ListenPort: 9996
+  Secret: BdjGEC-lvVuwOvep
+Mysql:
+  Addr: 
+  Name: 
+  Username: 
+  Password: 
+Redis:
+  Addr: 127.0.0.1:6379
+  Password: 
+  DB: 3
+CustomPrefixPrompts:
+    - 逆天
+    - 难崩
+    - 一眼丁真
+    - 下头
+    - 拜托
+    - fk
+    - NB
+CheckinAward:
+# 1 KB = 1024;
+# 1 MB = 1048576;
+# 1 GB = 1073741824;
+  Max: 1073741824
+  Min: 1048576

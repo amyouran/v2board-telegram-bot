@@ -62,7 +62,7 @@ CREATE TABLE `v2_telegram_checkin` (
 
 > aaPanel 面板 > App Store > Tools
 > 找到Supervisor进行安装，安装完成后点击设置 > Add Daemon按照如下填写, 
-> 在 Name 填写 V2board, 
+> 在 Name 填写 V2boardbot, 
 > 在 Run User 选择 root (有权限的用户即可), 
 > 在 Run Dir 选择 软件包上传的目录 , 
 > 在 Start Command 填写 软件包上传的目录/main(例如上传到root目录下则是: /root/v2board-telegram-bot/main), 

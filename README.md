@@ -68,7 +68,7 @@ CREATE TABLE `v2_telegram_checkin` (
 > 在 Start Command 填写 软件包上传的目录/main(例如上传到root目录下则是: /root/v2board-telegram-bot/main), 
 > 在 Processes 填写 1 。
 
-![image](https://github.com/amyouran/v2board-telegram-bot/assets/150254537/c8096b97-32c1-43a9-a7a3-daefc5a64dea)
+![image](https://github.com/amyouran/v2board-telegram-bot/assets/150254537/3abd3737-ba3a-4af9-838e-9f1a5ec226cf)
 
 查看Log显示如上则为成功。
 

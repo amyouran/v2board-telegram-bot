@@ -27,9 +27,9 @@
 | Max | 签到最高奖励流量(Byte) | 
 | Min | 签到最低奖励流量(Byte) | 
 
-A secret token to be sent in a header “X-Telegram-Bot-Api-Secret-Token” in every webhook request, 1-256 characters. Only characters A-Z, a-z, 0-9, _ and - are allowed. The header is useful to ensure that the request comes from a webhook set by you.
+> A secret token to be sent in a header “X-Telegram-Bot-Api-Secret-Token” in every webhook request, 1-256 characters. Only characters A-Z, a-z, 0-9, _ and - are allowed. The header is useful to ensure that the request comes from a webhook set by you.
 
-在每个 Webhook 请求中，应该发送一个秘密令牌到头部“X-Telegram-Bot-Api-Secret-Token”，长度为 1-256 个字符。只允许使用字母 A-Z、a-z、数字 0-9、下划线（_）和连字符（-）。这个头部很有用，可以确保请求来自由你设置的 Webhook。
+> 在每个 Webhook 请求中，应该发送一个秘密令牌到头部“X-Telegram-Bot-Api-Secret-Token”，长度为 1-256 个字符。只允许使用字母 A-Z、a-z、数字 0-9、下划线（_）和连字符（-）。这个头部很有用，可以确保请求来自由你设置的 Webhook。
 
 关于 CustomPrefixPrompts: 一个有趣的设置，Bot会随机挑选列表中的一个前缀来使用。
 

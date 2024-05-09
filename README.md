@@ -12,9 +12,9 @@
 根据互联网上的普遍论调，`golang`比`php`快5至25倍。由此推论，这个Bot比原版Bot快5至25倍。值得注意的是：在签到模块，本Bot使用了Redis缓存，这将进一步拉大两者之间的性能差距。
 另一个值得称道的小细节是：本Bot向Telegram注册了自己的命令，在群组或私聊中输入`/`即可获得Bot可用命令的提示，这在原版Bot中似乎也是没有的。
 
-[Bot测试群组](https://t.me/zeroThemeGroup)
-
 ![image](https://github.com/amyouran/v2board-telegram-bot/assets/150254537/5985726c-7ba8-4d61-9617-9ae22991c5db)
+
+[测试Bot](https://t.me/zeroThemeGroup)
 
 ## 配置 Config.yaml
 | Field                 | Desc                                                       | 
@@ -72,9 +72,13 @@ CREATE TABLE `v2_telegram_checkin` (
 
 查看Log显示如上则为成功。
 
-5.
-
-
 ## 推荐
 
 - [简约、优雅的v2board主题](https://github.com/amyouran/V2b-Zero-Theme)
+- [v2board 动态倍率脚本](https://github.com/amyouran/v2board-dynamic-rate)
+
+## License
+
+[MIT](https://opensource.org/licenses/MIT)
+
+Copyright (c) 2014-present, [Linki](https://t.me/is_linki)

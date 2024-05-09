@@ -49,7 +49,7 @@ CREATE TABLE `v2_telegram_checkin` (
   INDEX `idx_user_tg_id` (`user_tg_id`)
 ) ENGINE = InnoDB DEFAULT CHARSET = utf8mb4 COMMENT = '签到记录表';
 ````
-1. 下载软件包上传到服务器解压缩
+1. 下载[软件包v1.0.0](https://github.com/amyouran/v2board-telegram-bot/releases/download/v1.0.0/v2boardbot.tar.gz)上传到服务器解压缩
 2. 配置`configs`目录下的`configs.example.yaml`，完成后重命名为 `configs.yaml`
    
 > PublicURL 配置为v2board域名/v2boardbot(例如: https://bot.xxxxx.top/v2boardbot), 保证bot.xxxxx.top可以访问v2board面板。

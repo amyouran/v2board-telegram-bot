@@ -1,6 +1,6 @@
 ## v2board-telegram-bot
 
-**高性能、高负载、部署简单, 基于Golang实现了原版Bot的功能，并增加了群组签到随机赠送流量。**
+**高性能、高负载、易安装、易卸载的v2board bot。 基于Golang实现了原版Bot的功能，并增加了群组签到随机赠送流量。**
 
 <p>
   <a href="https://golang.org/doc/devel/release.html#go1.22"><img src="https://img.shields.io/badge/Go-1.22.0-blue.svg" alt="Go version 1.22.0"></a>
